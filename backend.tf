@@ -3,7 +3,7 @@
 //Se rodando local, lembrar de mudar arquivo credentials
 terraform {
   backend "s3" {
-    bucket = "frameflow-backend-db-tf"
+    bucket = "robson-frameflow-backend-db-tf"
     key = "fiap51Burguer/terraform.tfstate"
     region = "us-east-1"
    
